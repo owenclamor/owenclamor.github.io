@@ -1,4 +1,6 @@
-
+.body{
+    text-align: center;
+}
 
 
 .navbar{
@@ -88,20 +90,25 @@
 
 /* MY-WORKS SECTION */
 .body-works{
-    padding-top: 5%;
+    padding-top: 1%;
     background-color: #F9F9F9;
 }
 
 .my-works{
     padding-bottom: 30px;
-    
+    text-align: center;
+}
+.my-works-subtext{
+    padding-top: 30px;
+    font-size: 20px;
+    text-align: center;
 }
 
 .card-works{
     text-align: center;
     font-size: 40px;
     font-family: 'Source Sans Pro', sans-serif;
-    padding-left: 130px;
+    
 }
 
 .card{
@@ -121,11 +128,23 @@
     font-weight: bold;
 }
 
+
 .work-pic{
     position: absolute;
     max-width: 200px;
     margin-left: 500px;
     margin-top: 95px;
+}
+
+.sweetx{
+    font-size: 20px;
+}
+
+@media(max-width: 600px){
+    .my-works{
+        margin-left: 0px;
+        margin-right: 90px;
+    }
 }
 
 
@@ -142,6 +161,9 @@
 .tools{
     padding-bottom: 30px;
 }
+.my-tools-subtext{
+    font-size: 20px;
+}
 
 @media (max-width: 583px) {
     .tools{
@@ -153,7 +175,7 @@
 /* MY EDUCATION SECTION */
 .my-education-section{
     background-color: #F9F9F9;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 .my-educ-text{
@@ -168,13 +190,20 @@
 }
 
 .perps{
-    max-width: 150px;
-    padding-right: 10px;
+    max-width: 10rem;
+
+    padding-bottom: 30px;
 }
 
-.iac{
-    max-width: 200px;
-    padding-left: 20px;
+
+
+
+.my-educ-subtext{
+  
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-bottom: 30px;
 }
 
 

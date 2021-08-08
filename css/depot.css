@@ -84,3 +84,38 @@
     }
     
 }
+
+
+.img-depot{
+    
+    padding-bottom: 80px;
+    padding-top: 20px;
+   
+}
+
+.icon{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+h1{
+    font-family: 'Archivo Narrow', sans-serif;
+    padding-top: 20px;
+}
+
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+li{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+
+@media(max-width: 1600px){
+    .img-depot{
+        max-width: 80%;
+    }
+}

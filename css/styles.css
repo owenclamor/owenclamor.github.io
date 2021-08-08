@@ -114,7 +114,7 @@
 .card{
     
     margin-right: 15%;
-    margin-left: 15%;
+    margin-left: 200px;
     
     align-items: center;
     margin-top: 5%;
@@ -191,10 +191,14 @@
 
 .perps{
     max-width: 10rem;
-
+    padding-right: 10px;
     padding-bottom: 30px;
 }
 
+.iac{
+    max-width: 22%;
+    padding-left: 10px;
+}
 
 
 
@@ -215,3 +219,20 @@
     padding-bottom: 20%;;
 }
 
+
+.icon{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+
+.my-language-image{
+    max-width: 10%;
+    padding-left: 50px;
+    margin-left: 120px;
+    margin-top: -420px;
+}
+
+.footer{
+    background-color: #F9F9F9;
+}

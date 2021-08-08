@@ -1,0 +1,54 @@
+.body{
+    text-align: center;
+}
+
+.navbar{
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-right: 10%;
+    
+    
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-family: 'DM Sans', sans-serif;
+    
+}
+
+.logo-brand{
+    width: 5%;
+}
+
+.nav-item{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    color: black !important; 
+    padding-right: 10px;
+    
+}
+
+.container-fluid{
+    padding: 3% 15%
+}
+.body-title{
+    background-color: white;
+}
+
+
+.info{
+ padding-top: 100px;
+ font-family: 'Julius Sans One', sans-serif;
+ font-size: 50px;
+}
+
+.list{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 20px;
+    
+}
+
+li{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
